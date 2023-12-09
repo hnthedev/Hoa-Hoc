@@ -1,50 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Hoá Học v0.1</title>
-        <script defer src="index.js"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!-- TITLE BAR -->
-        <div class = "titleBar">
-            <b>Hoá học v0.1</b>
-            <button id="closeBtn"><b>x</b></button>
-        </div>
-        <div style="font-family: Consolas;text-align: center;">
-            <h1 style="margin-top: 50px;margin-bottom: 0;">XỬ LÍ BÀI HOÁ MỘT CÁCH ĐƠN GIẢN</h1>
-            <h3 style="margin-top: 0;">Chọn tính năng bạn cần dùng</h2>
-        </div>
-        <div id="MainStart" onclick="location.href='home_page.html';" style="margin-top: 130px;">
-            <b style="vertical-align: middle;display: inline-block;line-height: normal;font-size:larger;"> VỀ MENU</b>
-        </div>
-        <div style="width: 100%; height: 60%;display: flex;margin-top: 30px;">
-            <div onclick="location.href='websource/tools.html';" id="SelectBox" style="width: 30%;margin-left: 20px; margin-top: 30px;">
-                <h1>CÔNG CỤ</h1>
-                <div style="height: 120px;width: 100%;">
-                    <img src="data/tools.png" width="40%">
-                </div>
-                <br>
-                <p id="hiddenText" style="padding-left: 20px ;font-size: smaller;width: 80%;text-align: justify;">Gồm những công cụ như cân bằng hoá học bằng phương pháp lập hệ phương trình, Tính phần trăm khối lượng của chất và các cách phát âm tên chất</p>
-            </div>
-            <div onclick="location.href='Infos/index.html';" id="SelectBox" style="width: 30%;margin-left: 20px; margin-top: 30px;">
-                <h1>TRA CỨU</h1>
-                <div style="height: 120px;width: 100%;">
-                    <img src="data/search.png" width="40%">
-                </div>
-                <br>
-                <p id="hiddenText" style="padding-left: 20px ;font-size: smaller;width: 80%;text-align: justify;">Những tài liệu được sử dụng trong hoá học như bảng tuần hoàn, bảng tính tan,...</p>
-            </div>
-            <div id="SelectBox" style="width: 30%;margin-left: 20px; margin-top: 30px;">
-                <h1>LUYỆN TẬP</h1>
-                <div style="height: 120px;width: 100%;">
-                    <img src="data/learning.png" width="40%">
-                </div>
-                <br>
-                <p id="hiddenText" style="padding-left: 20px ;font-size: smaller;width: 80%;text-align: justify;">Những bài tập để rèn luyện tư duy cho môn Hoá học</p>
-            </div>
-            
-        </div>
-    </body>
+<html>
+  <head>
+    <title>by HN the developer x BTP</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="padding: 30px; align-items: center;font-family: JetBrainsMono Nerd Font;margin: 0 auto;color: rgb(71, 71, 71);font-variant: small-caps;">
+        <a style="padding: 50px;color: black;">[MENU]</a>
+        <a onclick="location.href='websource/tools.html';" class="choose" style="padding: 50px;">CÔNG CỤ</a>
+        <a onclick="location.href='Infos/index.html';" class="choose" style="padding: 50px;">TRA CỨU</a>
+        <a class="choose" style="padding: 50px;">LUYỆN TẬP</a>
+    </div>
+
+
+    <div style="align-items: center;">
+
+        <h1 style="font-size: 90px;font-family: JetBrainsMono Nerd Font;width: 100%;text-align: center;margin-bottom: 10px; font-style: bold;">HOÁ HỌC</h1>
+      <h3 style="text-align: center;font-family:JetBrainsMono Nerd Font;">Làm với Python. Chạy đa nền tảng.</h3>
+
+    </div>
+    <div style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('https://img.freepik.com/premium-vector/physical-formulas-phenomenon-handdrawn-illustration-sciene_40453-2861.jpg');width: 100%;height: 50%;"></div>
+    <div id="MainStart"onclick="location.href='index.html';">
+      <b style="vertical-align: middle;display: inline-block;line-height: normal;font-size:larger;">BẮT ĐẦU   </b>
+    </div>
+    <div id="InfoBtn" onclick="location.href='websource/info.html'"> VỀ ỨNG DỤNG HOÁ HỌC</div>
+    
+  </body>
+
 </html>
