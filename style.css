@@ -126,18 +126,11 @@ body {
     font-weight: bolder;
     text-align: center;
 }
-#SelectBox #hiddenText{
-    opacity: 0;
-    transition: 0.6s;
 
-}
 #SelectBox:hover {
-    height: 100%;
     cursor: pointer;
 }
-#SelectBox:hover #hiddenText{
-    opacity: 1;
-}
+
 
 
 #InfoBtn {
