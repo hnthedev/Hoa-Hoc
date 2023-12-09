@@ -1,0 +1,259 @@
+@font-face {
+    font-family: JetBrainsMono Nerd Font;
+    src: url('./font.ttf');
+}
+
+
+body {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+}
+
+.titleBar {
+    position: fixed;
+    -webkit-app-region: drag;
+    font-family: consolas; 
+    text-align: center; 
+    padding-bottom: 5px; 
+    padding-top: 2px;
+    width: 100%;
+    z-index: 99;
+}
+
+
+#Select {
+    background-image: linear-gradient(to right,#bafae7, white);
+    border-radius: 7px;
+}
+
+#closeBtn {
+    position: fixed;
+    -webkit-app-region: no-drag; 
+    float: right; 
+    right: 0;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: white; 
+    font: consolas; 
+    border-style: dotted;
+    transition: 0.3s;
+    border-radius: 6px;
+    height: 20px;
+    width: 20px;
+    padding: 0%;
+    text-align: center;
+    z-index: 100;
+}
+#closeBtn:hover{
+    border-style: dashed;
+    background-color: rgb(242, 129, 129);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#backBtn {
+    position: fixed;
+    -webkit-app-region: no-drag; 
+    float: left; 
+    left: 0;
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: white; 
+    font: consolas; 
+    border-style: dotted;
+    transition: 0.3s;
+    border-radius: 6px;
+    height: 20px;
+    width: 20px;
+    padding: 0%;
+    text-align: center;
+    z-index: 100;
+}
+#backBtn:hover{
+    border-style: dashed;
+    background-color: rgb(242, 231, 129);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+.choose:hover{
+    color: #f8aa4b;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#MainStart {
+    line-height: 45px;
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    border-style: solid;
+    text-align: center;
+    font-family:JetBrainsMono Nerd Font;
+    border-color: black;
+    transition: 0.3s;
+}
+
+#MainStart:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#SelectBox {
+    height: 70%;
+    transition: 0.3s;
+    border: solid;
+    border-color: black;
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: bolder;
+    text-align: center;
+}
+#SelectBox #hiddenText{
+    opacity: 0;
+    transition: 0.6s;
+
+}
+#SelectBox:hover {
+    height: 100%;
+    cursor: pointer;
+}
+#SelectBox:hover #hiddenText{
+    opacity: 1;
+}
+
+
+#InfoBtn {
+    position: absolute;
+    font-family: JetBrainsMono Nerd Font;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+    font-weight: bolder;
+    transition: 0.3s;
+    color: red;
+    border-color: black;
+    border-style: solid;
+    padding: 2px 3px;
+    font-size: small;
+    border-radius: 4px;
+}
+
+#InfoBtn:hover {
+    color: blue;
+}
+
+
+#InputText {
+    font-family: JetBrainsMono Nerd Font;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+}
+#submitCBPU {
+    font-family: JetBrainsMono Nerd Font;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(224, 206, 87);
+    box-shadow: 4px 4px 0 black;
+}
+#submitCBPU:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(211, 190, 54);
+}
+#submitCBPU:active {
+    box-shadow: none;
+}
+
+#CBPUout {
+    white-space: pre;
+    width: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+#aniBtn {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 80px; 
+    cursor: pointer;
+}
+#aniBtn span{
+    width: 0;
+    height: 80px;
+    background-color: rgb(243, 228, 132);
+    transition: 0.3s;
+    position: absolute;
+    z-index: 0;
+}
+#aniBtn:hover span {
+    width: 68.75%;
+    height: 80px;
+}
+
+#InputTextPer {
+    font-family: JetBrainsMono Nerd Font;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+}
+#submitPer {
+    font-family: JetBrainsMono Nerd Font;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(224, 206, 87);
+    box-shadow: 4px 4px 0 black;
+}
+#submitPer:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(211, 190, 54);
+}
+#submitPer:active {
+    box-shadow: none;
+}
+
+#Perout {
+    white-space: pre;
+    width: 100%;
+}
