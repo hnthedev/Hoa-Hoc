@@ -81,12 +81,18 @@ body {
 }
 
 
-
+.choose {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: consolas;
+}
 .choose:hover{
     color: #f8aa4b;
     font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
+    background-color: #555;
 }
 #MainStart {
     line-height: 45px;
