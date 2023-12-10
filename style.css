@@ -80,7 +80,7 @@ body {
     cursor: pointer;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=JetBrainsMono Nerd Font&display=swap');
 #MainStart {
     line-height: 45px;
     position: absolute;
@@ -92,7 +92,7 @@ body {
     margin-top: 70vh;
     border-style: solid;
     text-align: center;
-    font-family:Roboto;
+    font-family:JetBrainsMono Nerd Font;
     border-color: black;
     transition: 0.3s;
     border-width: 0.4vh;
@@ -110,7 +110,7 @@ body {
     border: solid;
     border-color: black;
     border-width: 1vh;
-    font-family: Roboto;
+    font-family: JetBrainsMono Nerd Font;
     font-weight: bolder;
     text-align: center;
 }
@@ -122,7 +122,7 @@ body {
 
 #InfoBtn {
     position: absolute;
-    font-family: Roboto;
+    font-family: JetBrainsMono Nerd Font;
     right: 10px;
     bottom: 10px;
     background-color: white;
@@ -142,13 +142,13 @@ body {
 
 
 #InputText {
-    font-family: Roboto;
+    font-family: JetBrainsMono Nerd Font;
     margin-top: 30px;
     padding: 10px;
     width: 80%;
 }
 #submitCBPU {
-    font-family: Roboto;
+    font-family: JetBrainsMono Nerd Font;
     margin-top: 30px;
     width: 100px;
     height: 30px;
@@ -215,13 +215,13 @@ background: #555;
 }
 
 #InputTextPer {
-    font-family: Roboto;
+    font-family: JetBrainsMono Nerd Font;
     margin-top: 30px;
     padding: 10px;
     width: 80%;
 }
 #submitPer {
-    font-family: Roboto;
+    font-family: JetBrainsMono Nerd Font;
     margin-top: 30px;
     width: 100px;
     height: 30px;
