@@ -8,11 +8,6 @@
     <title>Excel Table to HTML</title>
 </head>
 <body>
-    <div class="titleBar">
-        <button id="backBtn"><b><</b></button>
-        <b>Bảng tính tan</b>
-        <button id="closeBtn"><b>x</b></button>
-    </div>
     <div>
         <h1 style="text-align: center;padding-bottom: 10px;margin-bottom: 0;">Bảng tính tan</h1>
         <p style="text-align: center;font-size: small;margin-top: 0;">Tra cứu khả năng hoà tan của các chất</p>
@@ -25,7 +20,8 @@
         </p>
     
     </div>
-    <table id="excel-table"></table>
+    <div style="overflow-x: scroll;"><table id="excel-table"></table></div>
+    
     <script src="script.js"></script>
     <script src="../../index.js"></script>
 </body>
