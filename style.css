@@ -81,19 +81,6 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-.choose {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0px;
-    font-family: consolas;
-}
-.choose:hover{
-    color: #f8aa4b;
-    font-weight: bold;
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: #555  ;
-}
 #MainStart {
     line-height: 45px;
     position: absolute;
@@ -107,7 +94,7 @@ body {
     margin-top: 130%;
     border-style: solid;
     text-align: center;
-    font-family:JetBrainsMono Nerd Font;
+    font-family:Roboto;
     border-color: black;
     transition: 0.3s;
 }
@@ -122,7 +109,7 @@ body {
     transition: 0.3s;
     border: solid;
     border-color: black;
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Roboto;
     font-weight: bolder;
     text-align: center;
 }
@@ -135,7 +122,7 @@ body {
 
 #InfoBtn {
     position: absolute;
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Roboto;
     right: 10px;
     bottom: 10px;
     background-color: white;
@@ -155,13 +142,13 @@ body {
 
 
 #InputText {
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Roboto;
     margin-top: 30px;
     padding: 10px;
     width: 80%;
 }
 #submitCBPU {
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Roboto;
     margin-top: 30px;
     width: 100px;
     height: 30px;
@@ -228,13 +215,13 @@ background: #555;
 }
 
 #InputTextPer {
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Roboto;
     margin-top: 30px;
     padding: 10px;
     width: 80%;
 }
 #submitPer {
-    font-family: JetBrainsMono Nerd Font;
+    font-family: Roboto;
     margin-top: 30px;
     width: 100px;
     height: 30px;
