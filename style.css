@@ -84,8 +84,6 @@ body {
 #MainStart {
     line-height: 45px;
     position: absolute;
-    width: 160px;
-    height: 45px;
     background-color: rgb(255, 255, 255);
     left: 0;
     right: 0;
@@ -97,6 +95,7 @@ body {
     font-family:Roboto;
     border-color: black;
     transition: 0.3s;
+    border-width: 0.4vh;
 }
 
 #MainStart:hover {
@@ -105,19 +104,20 @@ body {
     cursor: pointer;
 }
 #SelectBox {
-    height: 70%;
+    height: 50vh;
+    aspect-ratio: 1 / 2;
     transition: 0.3s;
     border: solid;
     border-color: black;
+    border-width: 1vh;
     font-family: Roboto;
     font-weight: bolder;
     text-align: center;
 }
 
-#SelectBox:hover {
-    cursor: pointer;
+#SelectBox h1 {
+    font-size: 10vw;
 }
-
 
 
 #InfoBtn {
