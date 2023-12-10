@@ -10,6 +10,8 @@ html {
     left: 0;
     right: 0;
     margin: auto;
+    padding-right: 10px;
+    overflow: scroll;
 }
 
 .element {
@@ -99,6 +101,7 @@ html {
     visibility: hidden;
     width: 50%;
     height: 50%;
+    position: absolute;
 }
 #popup:target {
     visibility: visible;
@@ -137,8 +140,8 @@ html {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 600px;
-    height: 400px;
+    width: 90%;
+    height: 60%;
     z-index: 2;
     box-shadow: 0 5px 30px rgba(0,0,0,0.5);
 }
