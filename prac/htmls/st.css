@@ -1,0 +1,46 @@
+.TypeBtnn {
+    width: 40%;
+    border-color: black;
+    border-style: solid;
+    margin: 5px 10%;
+    font-family: JetBrainsMono Nerd Font;
+    text-align: center;
+    padding-top: 3px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+.TypeBtn2 {
+    width: 40%;
+    border-color: black;
+    border-style: solid;
+    margin: 5px 10%;
+    font-family: JetBrainsMono Nerd Font;
+    text-align: center;
+    padding-top: 3px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.TypeBtnn:hover {
+    background-color: black;
+    color: white;
+}
+.TypeBtn2:hover {
+    background-color: black;
+    color: white;
+}
+
+
+#ACT {
+    background-color: black;
+    color: white;
+}
+#DIS {
+    background-color: white;
+    color: black;
+}
+#DIS:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
