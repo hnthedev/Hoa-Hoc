@@ -1,0 +1,40 @@
+#mp3Table {
+    border-collapse: collapse;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: JetBrainsMono Nerd Font;
+    padding-top: 20px;
+    font-size: 4vw;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-family: JetBrainsMono Nerd Font;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+    align-self: center;
+    font-size: 3vw;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 7vw;
+  }
