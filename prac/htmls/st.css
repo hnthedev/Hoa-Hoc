@@ -8,6 +8,8 @@
     padding-top: 3px;
     background-color: white;
     transition: 0.3s ease;
+    font-size: 5vw;
+    padding-top: 20px;
 }
 .TypeBtn2 {
     width: 40%;
@@ -19,6 +21,8 @@
     padding-top: 3px;
     background-color: white;
     transition: 0.3s ease;
+    font-size: 5vw;
+    padding-top: 20px;
 }
 
 .TypeBtnn:hover {
@@ -28,4 +32,11 @@
 .TypeBtn2:hover {
     background-color: black;
     color: white;
+}
+
+b {
+    font-size: 3vw;
+    font-family: JetBrainsMono Nerd Font;
+    text-align: center;
+    padding-bottom: 50%;
 }
