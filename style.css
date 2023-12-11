@@ -242,3 +242,26 @@ background: #555;
     white-space: pre;
     width: 100%;
 }
+#ChBtn {
+    width: 80%;
+    height: 10%;
+    border-style: solid;
+    border-color: black;
+    left: 0;
+    right: 0;
+    margin: 7px auto;
+    background-color: white;
+    transition: 0.3s ease;
+}
+#ChBtn #chuong {
+    margin: 5px;
+    font-size: 5vw;
+}
+#ChBtn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#ChName {
+    font-size: 2vw;
+}
