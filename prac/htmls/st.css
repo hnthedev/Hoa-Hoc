@@ -29,18 +29,3 @@
     background-color: black;
     color: white;
 }
-
-
-#ACT {
-    background-color: black;
-    color: white;
-}
-#DIS {
-    background-color: white;
-    color: black;
-}
-#DIS:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
