@@ -104,14 +104,13 @@ body {
     cursor: pointer;
 }
 #SelectBox {
-    height: 50vh;
-    aspect-ratio: 1 / 2;
+    height: 60vh;
     transition: 0.3s;
     border: solid;
     border-color: black;
     border-width: 1vh;
     font-family: JetBrainsMono Nerd Font;
-    font-weight: bolder;
+    
     text-align: center;
 }
 
